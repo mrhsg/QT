@@ -1,6 +1,5 @@
 ![Image 程序运行界面](https://github.com/mrhsg/images/blob/master/qt鼠标画图.PNG)
 
-
 /*
      widget.h
 */
