@@ -1,16 +1,18 @@
 ![Image 程序运行界面](https://github.com/mrhsg/images/blob/master/qt鼠标画图.PNG)
+
+
 /*
      widget.h
 */
 
-#ifndef WIDGET_H
-#define WIDGET_H
+ #ifndef WIDGET_H
+ #define WIDGET_H
 
-#include <QWidget>
-#include <QPoint>
-#include <vector>
-#include <QLabel>
-#include <QCursor>
+ #include <QWidget>
+ #include <QPoint>
+ #include <vector>
+ #include <QLabel>
+ #include <QCursor>
 
 using namespace std;
 
@@ -42,19 +44,19 @@ public:
     vector<myLine*> lines;
 };
 
-#endif // WIDGET_H
+ #endif // WIDGET_H
 
 
 /*
      widget.cpp
 */
 
-#include "widget.h"
-#include <QString>
-#include <QMessageBox>
-#include <QPainter>
-#include <QPen>
-#include <QMouseEvent>
+ #include "widget.h"
+ #include <QString>
+ #include <QMessageBox>
+ #include <QPainter>
+ #include <QPen>
+ #include <QMouseEvent>
 
 
 Widget::Widget(QWidget *parent)
